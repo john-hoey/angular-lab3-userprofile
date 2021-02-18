@@ -1,0 +1,64 @@
+.edit-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow:  0px 0px 10px 0px rgba(204,204,204,1);
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.edit-form-instructions {
+    font-size: medium;
+    font-weight: 900;
+    margin: 15px 0px 0px 15px;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px 15px 15px 15px;
+    
+}
+.edit-form-label {
+color: #1ECEFD;
+font-size: 10pt;
+font-weight: 800;
+margin: 0;
+padding: 0;
+}
+.edit-form-input {
+margin: 8px 0px;
+border-radius: 15px;
+padding: 14px;
+font-weight: 700;
+font-size: x-small;
+}
+
+.edit-form-textarea {
+    margin: 8px 0px;
+    border-radius: 15px;
+    padding: 14px;
+    height: 60px;
+    font-weight: 700;
+font-size: x-small;
+    
+    }
+
+
+.edit-form-update-button {
+    margin: 10px 0px 0px 0px;
+    border-radius: 13px;
+    padding: 8px;
+    background-color: #505355;
+    color: white;
+    font-weight: 800;
+    font-size: 7pt;
+}
+
+.edit-form-update-button:hover {
+    background-color: #5BECD8;
+    color: black;
+}
